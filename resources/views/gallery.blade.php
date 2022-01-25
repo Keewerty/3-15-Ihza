@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Ihza | Gallery</title>
 </head>
-<body>
+
+@extends('layout.main')
+
+@section('container')
     <h1> Halaman Gallery </h1>
-</body>
+@endsection
+
 </html>
